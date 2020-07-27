@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nebulos-dashboard/precache-manifest.1160ccfebe972c46275f16fcdba0fc44.js"
+  "/nebulos-dashboard/precache-manifest.a2d1ff59a9c7777af150e6c10bc2c75c.js"
 );
 
 self.addEventListener('message', (event) => {
