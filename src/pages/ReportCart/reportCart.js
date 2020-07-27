@@ -28,10 +28,10 @@ const ReportCart = props => {
             onChange={callback}
             style={{ backgroundColor: '#fff', margin: '20px 0', padding: '10px' }}
           >
-            <TabPane tab="銷售額" key="1">
+            <TabPane tab="Sales" key="1">
               <Barchart style={{ height: '400px' }} option={salesConfig} />
             </TabPane>
-            <TabPane tab="訪問量" key="2">
+            <TabPane tab="Pageview" key="2">
               <Barchart style={{ height: '400px' }} option={pageviewConfig} />
             </TabPane>
           </Tabs>

@@ -105,16 +105,16 @@ const User = props => {
           }}
           scrollToFirstError
         >
-          <div>
-            <h2>修改帳戶資訊</h2>
+          <div style={{marginBottom: '20px'}}>
+            <h2>Account information</h2>
           </div>
-          <Form.Item name="username" label="帳號">
+          <Form.Item name="username" label="username">
             <Input />
           </Form.Item>
 
           <Form.Item
             name="nickname"
-            label="匿名"
+            label="nickname"
             rules={[
               {
                 required: false,
@@ -128,7 +128,7 @@ const User = props => {
 
           <Form.Item
             name="email"
-            label="信箱"
+            label="email"
             rules={[
               {
                 type: 'email',
@@ -145,7 +145,7 @@ const User = props => {
 
           <Form.Item
             name="password"
-            label="密碼"
+            label="password"
             rules={[
               {
                 required: false,
@@ -159,7 +159,7 @@ const User = props => {
 
           <Form.Item
             name="confirm"
-            label="確認密碼"
+            label="confirm password"
             dependencies={['password']}
             hasFeedback
             rules={[
@@ -183,7 +183,7 @@ const User = props => {
 
           <Form.Item
             name="phone"
-            label="電話"
+            label="phone"
             rules={[
               {
                 required: false,
@@ -201,7 +201,7 @@ const User = props => {
 
           <Form.Item
             name="website"
-            label="網站"
+            label="website"
             rules={[
               {
                 required: false,
@@ -216,7 +216,7 @@ const User = props => {
 
           <Form.Item {...tailFormItemLayout}>
             <Button type="primary" htmlType="submit">
-              更新帳戶資訊
+              submit
             </Button>
           </Form.Item>
         </Form>

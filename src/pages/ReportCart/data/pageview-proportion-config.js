@@ -7,11 +7,11 @@ export default {
   legend: {
     orient: 'vertical',
     left: 'left',
-    data: ['配件飾品', '居家生活', '包包提袋', '衣著良品', '文具卡片'],
+    data: ['Accessories', 'Furniture', 'Bags', 'Clothes', 'stationery'],
   },
   series: [
     {
-      name: '銷售額',
+      name: 'sales',
       type: 'pie',
       radius: '85%',
       center: ['50%', '50%'],
@@ -26,11 +26,11 @@ export default {
         show: true,
       },
       data: [
-        { value: 335, name: '配件飾品' },
-        { value: 310, name: '居家生活' },
-        { value: 234, name: '包包提袋' },
-        { value: 135, name: '衣著良品' },
-        { value: 1548, name: '文具卡片' },
+        { value: 335, name: 'Accessories' },
+        { value: 310, name: 'Furniture' },
+        { value: 234, name: 'Bags' },
+        { value: 135, name: 'Clothes' },
+        { value: 1548, name: 'Stationery' },
       ],
     },
   ],

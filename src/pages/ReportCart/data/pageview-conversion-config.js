@@ -18,7 +18,7 @@ export default {
     },
   },
   legend: {
-    data: ['瀏覽量', '銷售量'],
+    data: ['Sales', 'Pageview'],
   },
   grid: {
     left: '3%',
@@ -30,19 +30,19 @@ export default {
   xAxis: {
     type: 'category',
     boundaryGap: false,
-    data: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+    data: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
   },
   yAxis: {
     type: 'value',
   },
   series: [
     {
-      name: '瀏覽量',
+      name: 'Sales',
       data: [1239, 833, 432, 393, 529, 1330, 132, 961, 393, 529, 1093, 829],
       type: 'line',
     },
     {
-      name: '銷售量',
+      name: 'Pageview',
       data: [282, 1032, 391, 923, 578, 133, 132, 489, 793, 290, 393, 1290],
       type: 'line',
     },

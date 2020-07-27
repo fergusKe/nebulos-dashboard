@@ -9,6 +9,8 @@ import ReportCart from './pages/ReportCart/reportCart'
 import Report from './pages/report/report'
 import MemberReport from './pages/member-report/member-report'
 import User from './pages/user/user'
+import PromotionOverview from './pages/PromotionOverview/PromotionOverview'
+import AdminProductLaunch from './pages/AdminProductLaunch/AdminProductLaunch'
 
 import 'antd/dist/antd.css'
 import './App.scss'
@@ -19,11 +21,13 @@ import './App.scss'
 const App = () => (
   <HashRouter>
     <Switch>
-      <Route exact path="/" component={Login} />
-      <Route exact path="/login" component={Login} />
-      <Route exact path="/sign" component={Sign} />
+      <Route exact path="/" render={() => <ReportCart rolePath="/user-admin/" />} />
+      {/* <Route exact path="/login" component={Login} />
+      <Route exact path="/sign" component={Sign} /> */}
       {/* user-admin */}
+      <Route exact path="/user-admin/report" render={() => <PromotionOverview rolePath="/user-admin/" />} />
       <Route exact path="/user-admin/overview" render={() => <Overview rolePath="/user-admin/" />} />
+      <Route exact path="/user-admin/product" render={() => <AdminProductLaunch rolePath="/user-admin/" />} />
       <Route exact path="/user-admin/setting" render={() => <Setting rolePath="/user-admin/" />} />
       <Route exact path="/user-admin/reportCart" render={() => <ReportCart rolePath="/user-admin/" />} />
       <Route exact path="/user-admin/report" render={() => <Report rolePath="/user-admin/" />} />

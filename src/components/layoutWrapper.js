@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, withRouter } from 'react-router-dom'
 import { Layout, Menu, Avatar, notification } from 'antd'
-import { AreaChartOutlined, SettingOutlined, ProfileOutlined, UserOutlined } from '@ant-design/icons'
+import { AreaChartOutlined, SettingOutlined, ProfileOutlined, UserOutlined, DashboardOutlined, ContainerOutlined } from '@ant-design/icons'
 import logo from '../imgs/logo.jpg'
 import { getCookie, removeCookie } from '../commons/cookie'
 
@@ -24,11 +24,11 @@ class LayoutWrapper extends React.Component {
     const { history } = this.props
     console.log('tdUser = ', tdUser)
     console.log('tdJwt = ', tdJwt)
-    if (!tdUser || !tdJwt) {
-      console.log('未登入')
-      this.openNotification()
-      history.push('/login')
-    }
+    // if (!tdUser || !tdJwt) {
+    //   console.log('未登入')
+    //   this.openNotification()
+    //   history.push('/login')
+    // }
   }
 
   openNotification = () => {
@@ -53,8 +53,8 @@ class LayoutWrapper extends React.Component {
 
     if (key === 'logout') {
       console.log('logout')
-      this.logout()
-      history.push('/login')
+      // this.logout()
+      // history.push('/login')
       return
     }
 
@@ -86,7 +86,7 @@ class LayoutWrapper extends React.Component {
                 </div>
               </Link>
             </Menu.Item>
-            <SubMenu
+            {/* <SubMenu
               key="sub1"
               title={
                 <span>
@@ -110,23 +110,29 @@ class LayoutWrapper extends React.Component {
                   <span className="nav-text">會員報表</span>
                 </Link>
               </Menu.Item>
-            </SubMenu>
+            </SubMenu> */}
+            <Menu.Item key="4">
+              <Link to={`${rolePath}reportCart`}>
+                <DashboardOutlined />
+                <span className="nav-text">Overview</span>
+              </Link>
+            </Menu.Item>
             <Menu.Item key="3">
-              <Link to={`${rolePath}setting`}>
-                <SettingOutlined />
-                <span className="nav-text">推薦產品</span>
+              <Link to={`${rolePath}report`}>
+                <AreaChartOutlined />
+                <span className="nav-text">Report</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="2">
-              <Link to={`${rolePath}overview`}>
-                <AreaChartOutlined />
-                <span className="nav-text">提領現金</span>
+              <Link to={`${rolePath}product`}>
+                <ContainerOutlined />
+                <span className="nav-text">Product</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="6">
               <Link to={`${rolePath}user`}>
-                <UserOutlined />
-                <span className="nav-text">帳戶資訊</span>
+                <SettingOutlined />
+                <span className="nav-text">Setting</span>
               </Link>
             </Menu.Item>
           </Menu>
@@ -156,7 +162,7 @@ class LayoutWrapper extends React.Component {
           <Content style={{ margin: '16px' }}>
             <div style={{ padding: 24, minHeight: 360 }}>{children}</div>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>© 2020 Turing Digital. All Rights Reserved</Footer>
+          <Footer style={{ textAlign: 'center' }}>© 2020 NebulOS. All Rights Reserved</Footer>
         </Layout>
       </Layout>
     )
