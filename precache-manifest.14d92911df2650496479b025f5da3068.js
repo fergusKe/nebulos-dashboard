@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6557740843bfa40ea3e8dc125a9cb0f",
+    "revision": "136207a3586f98e9ccfd8ecf512bf2c7",
     "url": "/nebulos-dashboard/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nebulos-dashboard/static/css/2.fc5a9450.chunk.css"
   },
   {
-    "revision": "ba6a37bfa4c111736188",
+    "revision": "9b02720e66f5475d0fd7",
     "url": "/nebulos-dashboard/static/css/main.d1fb610d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nebulos-dashboard/static/js/2.8cf19c03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba6a37bfa4c111736188",
-    "url": "/nebulos-dashboard/static/js/main.d4b86113.chunk.js"
+    "revision": "9b02720e66f5475d0fd7",
+    "url": "/nebulos-dashboard/static/js/main.9fdcbb3b.chunk.js"
   },
   {
     "revision": "3984d2436ec325e67359",

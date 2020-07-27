@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nebulos-dashboard/static/css/main.d1fb610d.chunk.css",
-    "main.js": "/nebulos-dashboard/static/js/main.d4b86113.chunk.js",
-    "main.js.map": "/nebulos-dashboard/static/js/main.d4b86113.chunk.js.map",
+    "main.js": "/nebulos-dashboard/static/js/main.9fdcbb3b.chunk.js",
+    "main.js.map": "/nebulos-dashboard/static/js/main.9fdcbb3b.chunk.js.map",
     "runtime-main.js": "/nebulos-dashboard/static/js/runtime-main.e32eff6f.js",
     "runtime-main.js.map": "/nebulos-dashboard/static/js/runtime-main.e32eff6f.js.map",
     "static/css/2.fc5a9450.chunk.css": "/nebulos-dashboard/static/css/2.fc5a9450.chunk.css",
     "static/js/2.8cf19c03.chunk.js": "/nebulos-dashboard/static/js/2.8cf19c03.chunk.js",
     "static/js/2.8cf19c03.chunk.js.map": "/nebulos-dashboard/static/js/2.8cf19c03.chunk.js.map",
     "index.html": "/nebulos-dashboard/index.html",
-    "precache-manifest.a2d1ff59a9c7777af150e6c10bc2c75c.js": "/nebulos-dashboard/precache-manifest.a2d1ff59a9c7777af150e6c10bc2c75c.js",
+    "precache-manifest.14d92911df2650496479b025f5da3068.js": "/nebulos-dashboard/precache-manifest.14d92911df2650496479b025f5da3068.js",
     "service-worker.js": "/nebulos-dashboard/service-worker.js",
     "static/css/2.fc5a9450.chunk.css.map": "/nebulos-dashboard/static/css/2.fc5a9450.chunk.css.map",
     "static/css/main.d1fb610d.chunk.css.map": "/nebulos-dashboard/static/css/main.d1fb610d.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.fc5a9450.chunk.css",
     "static/js/2.8cf19c03.chunk.js",
     "static/css/main.d1fb610d.chunk.css",
-    "static/js/main.d4b86113.chunk.js"
+    "static/js/main.9fdcbb3b.chunk.js"
   ]
 }
