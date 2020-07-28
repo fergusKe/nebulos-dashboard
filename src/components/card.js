@@ -3,7 +3,8 @@ import { Card, Col, Row, Statistic } from 'antd'
 import { CaretUpOutlined, CaretDownOutlined } from '@ant-design/icons'
 import Barchart from './barchart'
 import pageviewConfigSmall from '../pages/ReportCart/data/pageview-small-config'
-import pageviewConfig from '../pages/ReportCart/data/pageview-config'
+// import pageviewConfig from '../pages/ReportCart/data/pageview-config'
+import newUserConfig from '../pages/ReportCart/data/new-user-config'
 
 import './card.scss'
 
@@ -62,7 +63,7 @@ const DashboardCard = () => (
       <Col span={8}>
         <Card title="New users" bordered={false} style={{ minheight: '300px' }}>
           <h1 style={{ fontSize: '24px', fontWeight: 'normal' }}>6,560</h1>
-          <Barchart style={{ height: '200px', marginTop: '-50px' }} option={pageviewConfig} />
+          <Barchart style={{ height: '200px', marginTop: '-50px' }} option={newUserConfig} />
           <Row>
             <Col span={24} style={{ marginTop: '-15px' }}>
               <div>

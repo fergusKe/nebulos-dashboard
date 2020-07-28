@@ -1,5 +1,5 @@
 export default {
-  color: ['#fa653c'],
+  color: ['#75AFF9'],
   dataView: { show: false },
   title: {
     // text: '統計銷售額',
@@ -21,7 +21,6 @@ export default {
   xAxis: [
     {
       type: 'category',
-      boundaryGap: false,
       data: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
     },
   ],
@@ -32,11 +31,12 @@ export default {
   ],
   series: [
     {
-      name: 'pageview',
-      data: [82, 93, 91, 93, 129, 133, 132, 82, 93, 90, 93, 129],
-      type: 'line',
-      smooth: true,
-      areaStyle: {},
+      name: 'user',
+      type: 'bar',
+      data: [125.0, 142.9, 171.0, 123.2, 125.6, 76.7, 135.6, 162.2, 92.6, 120.0, 86.4, 123.3],
+      markLine: {
+        data: [{ type: 'average', name: '平均值' }],
+      },
     },
   ],
 }
