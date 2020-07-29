@@ -168,8 +168,8 @@ const Sign = () => {
       >
         {/* <Nav></Nav> */}
         <div className="titleWrap">
-          <Title>NebulOS</Title>
-          <h2>註冊會員</h2>
+          <Title>iFLO</Title>
+          <h2>Sign</h2>
         </div>
         <Form.Item
           label="帳號"

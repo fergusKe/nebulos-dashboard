@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, withRouter } from 'react-router-dom'
 import { Layout, Menu, Avatar, notification } from 'antd'
-import { AreaChartOutlined, SettingOutlined, ProfileOutlined, UserOutlined, DashboardOutlined, ContainerOutlined } from '@ant-design/icons'
+import { AreaChartOutlined, SettingOutlined, ProfileOutlined, UserOutlined, DashboardOutlined, ContainerOutlined, ClusterOutlined } from '@ant-design/icons'
 import logo from '../imgs/logo.jpg'
 import { getCookie, removeCookie } from '../commons/cookie'
 
@@ -82,10 +82,17 @@ class LayoutWrapper extends React.Component {
               <Link to={`${rolePath}reportCart`}>
                 <div className="logo" style={{width: '100%', textAlign: 'center', marginLeft: '-12px'}}>
                   {/* <img src={logo} alt="logo" style={{ width: '30px', marginRight: '10px' }} /> */}
-                  NebulOS
+                  iFLO
                 </div>
               </Link>
             </Menu.Item>
+            <Menu.Divider />
+            <Menu.Item>
+              <div style={{width: '100%', textAlign: 'center', marginLeft: '-12px'}}>
+                Current Enterprise 
+              </div>
+            </Menu.Item>
+            <Menu.Divider />
             {/* <SubMenu
               key="sub1"
               title={
@@ -135,6 +142,12 @@ class LayoutWrapper extends React.Component {
                 <span className="nav-text">Setting</span>
               </Link>
             </Menu.Item>
+            <Menu.Item key="7">
+              <Link to={`${rolePath}bpmn`}>
+                <ClusterOutlined />
+                <span className="nav-text">Bpmn</span>
+              </Link>
+            </Menu.Item>
           </Menu>
         </Sider>
         <Layout className="site-layout">
@@ -160,7 +173,7 @@ class LayoutWrapper extends React.Component {
             </SubMenu>
           </Menu>
           <Content style={{ margin: '16px' }}>
-            <div style={{ padding: 24, minHeight: 360 }}>{children}</div>
+            <div style={{ padding: 24, minHeight: 360, height: '100%' }}>{children}</div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>© 2020 NebulOS. All Rights Reserved</Footer>
         </Layout>

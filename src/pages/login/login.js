@@ -144,8 +144,8 @@ const Login = () => {
       >
         {/* <Nav></Nav> */}
         <div className="titleWrap">
-          <Title>NebulOS</Title>
-          <h2>登入系統</h2>
+          <Title>iFLO</Title>
+          <h2>Login</h2>
         </div>
         <Form.Item
           label="帳號"

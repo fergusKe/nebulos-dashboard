@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "antd": "^4.4.3",
     "axios": "^0.19.2",
+    "bpmn-js": "^7.2.1",
     "dayjs": "^1.8.30",
     "echarts": "^4.8.0",
     "echarts-for-react": "^2.0.16",
