@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/nebulos-dashboard/static/css/main.d1fb610d.chunk.css",
-    "main.js": "/nebulos-dashboard/static/js/main.9fdcbb3b.chunk.js",
-    "main.js.map": "/nebulos-dashboard/static/js/main.9fdcbb3b.chunk.js.map",
+    "main.css": "/nebulos-dashboard/static/css/main.3a0ce24d.chunk.css",
+    "main.js": "/nebulos-dashboard/static/js/main.ff0b966e.chunk.js",
+    "main.js.map": "/nebulos-dashboard/static/js/main.ff0b966e.chunk.js.map",
     "runtime-main.js": "/nebulos-dashboard/static/js/runtime-main.e32eff6f.js",
     "runtime-main.js.map": "/nebulos-dashboard/static/js/runtime-main.e32eff6f.js.map",
     "static/css/2.fc5a9450.chunk.css": "/nebulos-dashboard/static/css/2.fc5a9450.chunk.css",
-    "static/js/2.8cf19c03.chunk.js": "/nebulos-dashboard/static/js/2.8cf19c03.chunk.js",
-    "static/js/2.8cf19c03.chunk.js.map": "/nebulos-dashboard/static/js/2.8cf19c03.chunk.js.map",
+    "static/js/2.e86cdc9a.chunk.js": "/nebulos-dashboard/static/js/2.e86cdc9a.chunk.js",
+    "static/js/2.e86cdc9a.chunk.js.map": "/nebulos-dashboard/static/js/2.e86cdc9a.chunk.js.map",
     "index.html": "/nebulos-dashboard/index.html",
-    "precache-manifest.14d92911df2650496479b025f5da3068.js": "/nebulos-dashboard/precache-manifest.14d92911df2650496479b025f5da3068.js",
+    "precache-manifest.8d28e63cc8ef99f044ced5a6ac7276e9.js": "/nebulos-dashboard/precache-manifest.8d28e63cc8ef99f044ced5a6ac7276e9.js",
     "service-worker.js": "/nebulos-dashboard/service-worker.js",
     "static/css/2.fc5a9450.chunk.css.map": "/nebulos-dashboard/static/css/2.fc5a9450.chunk.css.map",
-    "static/css/main.d1fb610d.chunk.css.map": "/nebulos-dashboard/static/css/main.d1fb610d.chunk.css.map",
-    "static/js/2.8cf19c03.chunk.js.LICENSE.txt": "/nebulos-dashboard/static/js/2.8cf19c03.chunk.js.LICENSE.txt",
+    "static/css/main.3a0ce24d.chunk.css.map": "/nebulos-dashboard/static/css/main.3a0ce24d.chunk.css.map",
+    "static/js/2.e86cdc9a.chunk.js.LICENSE.txt": "/nebulos-dashboard/static/js/2.e86cdc9a.chunk.js.LICENSE.txt",
     "static/media/logo.jpg": "/nebulos-dashboard/static/media/logo.290234d6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e32eff6f.js",
     "static/css/2.fc5a9450.chunk.css",
-    "static/js/2.8cf19c03.chunk.js",
-    "static/css/main.d1fb610d.chunk.css",
-    "static/js/main.9fdcbb3b.chunk.js"
+    "static/js/2.e86cdc9a.chunk.js",
+    "static/css/main.3a0ce24d.chunk.css",
+    "static/js/main.ff0b966e.chunk.js"
   ]
 }
